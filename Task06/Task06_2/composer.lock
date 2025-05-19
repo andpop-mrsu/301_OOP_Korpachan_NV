@@ -5,23 +5,26 @@
         "This file is @generated automatically"
     ],
 <<<<<<< HEAD
-    "content-hash": "0ba6e4491a9715930c20bd54b8e38f0d",
-    "packages": [],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "content-hash": "ffcac24ca02cfd05e1253c37101bfa39",
 =======
-    "content-hash": "cf7b2d8158a1efbbab2a7eb68eaa07e7",
+    "content-hash": "ad635997b1c4ff815c044f6b7b92d66a",
+>>>>>>> student/Task06
     "packages": [],
     "packages-dev": [
         {
             "name": "myclabs/deep-copy",
+<<<<<<< HEAD
+            "version": "1.11.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/myclabs/DeepCopy.git",
+                "reference": "7284c22080590fb39f2ffa3e9057f10a4ddd0e0c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/7284c22080590fb39f2ffa3e9057f10a4ddd0e0c",
+                "reference": "7284c22080590fb39f2ffa3e9057f10a4ddd0e0c",
+=======
             "version": "1.13.1",
             "source": {
                 "type": "git",
@@ -32,6 +35,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/myclabs/DeepCopy/zipball/1720ddd719e16cf0db4eb1c6eca108031636d46c",
                 "reference": "1720ddd719e16cf0db4eb1c6eca108031636d46c",
+>>>>>>> student/Task06
                 "shasum": ""
             },
             "require": {
@@ -39,12 +43,19 @@
             },
             "conflict": {
                 "doctrine/collections": "<1.6.8",
+<<<<<<< HEAD
+                "doctrine/common": "<2.13.3 || >=3,<3.2.2"
+=======
                 "doctrine/common": "<2.13.3 || >=3 <3.2.2"
+>>>>>>> student/Task06
             },
             "require-dev": {
                 "doctrine/collections": "^1.6.8",
                 "doctrine/common": "^2.13.3 || ^3.2.2",
+<<<<<<< HEAD
+=======
                 "phpspec/prophecy": "^1.10",
+>>>>>>> student/Task06
                 "phpunit/phpunit": "^7.5.20 || ^8.5.23 || ^9.5.13"
             },
             "type": "library",
@@ -70,7 +81,11 @@
             ],
             "support": {
                 "issues": "https://github.com/myclabs/DeepCopy/issues",
+<<<<<<< HEAD
+                "source": "https://github.com/myclabs/DeepCopy/tree/1.11.1"
+=======
                 "source": "https://github.com/myclabs/DeepCopy/tree/1.13.1"
+>>>>>>> student/Task06
             },
             "funding": [
                 {
@@ -78,6 +93,22 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
+            "time": "2023-03-08T13:26:56+00:00"
+        },
+        {
+            "name": "nikic/php-parser",
+            "version": "v5.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "139676794dc1e9231bf7bcd123cfc0c99182cb13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/139676794dc1e9231bf7bcd123cfc0c99182cb13",
+                "reference": "139676794dc1e9231bf7bcd123cfc0c99182cb13",
+=======
             "time": "2025-04-29T12:36:36+00:00"
         },
         {
@@ -92,6 +123,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/447a020a1f875a434d62f2a401f53b82a396e494",
                 "reference": "447a020a1f875a434d62f2a401f53b82a396e494",
+>>>>>>> student/Task06
                 "shasum": ""
             },
             "require": {
@@ -102,7 +134,11 @@
             },
             "require-dev": {
                 "ircmaxell/php-yacc": "^0.0.7",
+<<<<<<< HEAD
+                "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0"
+=======
                 "phpunit/phpunit": "^9.0"
+>>>>>>> student/Task06
             },
             "bin": [
                 "bin/php-parse"
@@ -134,9 +170,15 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
+<<<<<<< HEAD
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.0.2"
+            },
+            "time": "2024-03-05T20:51:40+00:00"
+=======
                 "source": "https://github.com/nikic/PHP-Parser/tree/v5.4.0"
             },
             "time": "2024-12-30T11:07:19+00:00"
+>>>>>>> student/Task06
         },
         {
             "name": "phar-io/manifest",
@@ -258,6 +300,18 @@
         },
         {
             "name": "phpunit/php-code-coverage",
+<<<<<<< HEAD
+            "version": "11.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "7e35a2cbcabac0e6865fd373742ea432a3c34f92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/7e35a2cbcabac0e6865fd373742ea432a3c34f92",
+                "reference": "7e35a2cbcabac0e6865fd373742ea432a3c34f92",
+=======
             "version": "11.0.9",
             "source": {
                 "type": "git",
@@ -268,6 +322,7 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/14d63fbcca18457e49c6f8bebaa91a87e8e188d7",
                 "reference": "14d63fbcca18457e49c6f8bebaa91a87e8e188d7",
+>>>>>>> student/Task06
                 "shasum": ""
             },
             "require": {
@@ -2228,17 +2283,19 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+<<<<<<< HEAD
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-<<<<<<< HEAD
     "platform": [],
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
 =======
+    "stability-flags": {},
+    "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
     "plugin-api-version": "2.6.0"
 >>>>>>> student/Task06
->>>>>>> student/Task07
 }
